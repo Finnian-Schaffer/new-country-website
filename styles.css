@@ -1,0 +1,80 @@
+/*
+ 
+    selector {
+
+        property:value;
+        property:value;
+        property:value;
+
+    }
+
+    writing selectors
+
+    tagname --> selects all tags of a given type.
+    .classname --> Selects all numbers of a given class.
+    tagname.classname --> Selects only tags that are also members of a given class.
+
+    >. --> child symbol
+    tagname>tagname
+    tagname>.calssname
+    .classname>.classname
+    .classname>tagname
+
+*/
+
+.nav {
+    border-style: outset;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+
+}
+.nav>li {
+
+    border-style: outset;
+    display: inline-block;
+    border-radius: 900mm;
+    border-color: cyan;
+
+}
+
+.nav>li>a:hover {
+
+    background-color: floralwhite;
+
+}
+
+.norway {
+    text-align: center;
+    color: mediumturquoise;
+    border-style: double;
+
+}
+
+ .images {
+     text-align: center;
+     border-color: mediumturquoise;
+
+border-style: groove;
+
+ }
+
+ .text{
+     font-size: 10mm;
+     color: mediumturquoise;
+     border-style: double;
+ }
+ .fact1{
+     text-align: center;
+    border-style: double;
+  
+ }
+ 
+ .body{
+     
+ }
+
